@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-//use prepared statement wherever possible
+//use prepared statement wherever possible(improves performance)
 public class JdbcItemRepository implements ItemRepository{
 
 	private Connection connection;
